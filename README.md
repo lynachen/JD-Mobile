@@ -1,3 +1,3 @@
 # JD-Mobile
 
-京东web
+京东商城移动web开发
