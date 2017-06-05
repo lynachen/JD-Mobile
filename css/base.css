@@ -1,0 +1,91 @@
+/* reset css*/
+*,
+::before,
+::after {
+	margin: 0;
+	padding: 0;
+	-webkit-tap-hightlight-color:transparent;
+	-webkit-box-sizing:border-box;
+    box-sizing: border-box;
+}
+
+body {
+	font-size: 14px;
+	font-family: "Microsoft Yahei",sans-serif;
+	color: #333;
+}
+a {
+	color: #333;
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: none;
+}
+li {
+	list-style: none;
+}
+input {
+	border: none;
+	outline: none;
+	-webkit-appearance:none;
+}
+
+/* common css*/
+.f_left {
+	float: left;
+}
+.f_right {
+	float: right;
+}
+
+
+.m_l10 {
+	margin-left: 10px;
+}
+.m_r10 {
+	margin-right: 10px;
+}
+.m_t10 {
+	margin-top: 10px;
+}
+.m_b10 {
+	margin-bottom: 10px;
+}
+
+.w_50 {
+	width: 50%;
+	display: block;
+}
+.w_50 > img {
+	width: 100%;
+	display: block;
+}
+
+.w_25 {
+	width: 25%;
+	display: block;
+}
+.w_25 > img {
+	width: 100%;
+	display: block;
+}	
+
+.b_left {
+	border-left: thin solid #e0e0e0;
+}
+.b_right {
+	border-right: thin solid #e0e0e0;
+}
+.b_bottom {
+	border-bottom: thin solid #e0e0e0;
+}
+
+.clearfix::before,
+.clearfix::after {
+	content: "";
+	height: 0;
+	line-height: 0;
+	display: block;
+	visibility: hidden;
+	clear: both;
+}				
